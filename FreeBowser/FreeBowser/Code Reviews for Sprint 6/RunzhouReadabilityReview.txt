@@ -1,0 +1,12 @@
+﻿Author of the code review: Runzhou Cao
+Date of the code review: 4/22/16
+Sprint number: 6
+Name of the .cs file being reviewed: EditLevelDisplay.cs
+Author of the .cs file being reviewed: Jordan Linville
+Number of minutes taken to complete the review: 15 minutes
+
+Jordan's code is a little bit unreadable
+Specific comments on what is readable and what is not: 
+The naming of variables is clear and I can understand what they are about according to their names. However there are too many 
+variables, so I can't remember them all. The naming of methods is clear as well. Like InitXXX, I immediately understand
+what the functionality is. What's more, the loops/foreach and if statements are clear and organized very well.

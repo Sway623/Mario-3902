@@ -1,0 +1,11 @@
+﻿Author of Code Review: Krishna Ganesan
+Date of the code review: 2/10/16
+Sprint number: 2 
+Name of the .cs file being reviewed Flag.cs
+Author of the .cs file being reviewed: Samer Abusway
+Number of minutes taken to complete the review: 15 minutes
+Specific comments on what is readable and what is not: 
+
+The variables and dy and dx are readable in that they describe the position of the flag. The boolean done could be renamed to something more explanatory as to what it is that is "done". In the update method, 
+it is fairly readable, however I think it could be helpful to explain a bit more why the source rectangle is changing at a specific value for dy. The values inside of the if statements should probably also be declared earlier as
+to explain what exactly those positions (values of dy) represent, ie bottomOfFlagPole and so on. The Draw method is clear and readable in that the flagpole is being drawn and the flag is being drawn using dx and dy.

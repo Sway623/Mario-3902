@@ -1,0 +1,19 @@
+﻿Author of Code Review: Krishna Ganesan
+
+Date of the code review: 2/24/16
+
+Sprint number: 3 
+
+Name of the .cs file being reviewed: MarioLevel1-1.txt / Mario Level 1-1.csv
+
+Author of the .cs file being reviewed: Samer Abusway
+
+Number of minutes taken to complete the review: 10 minutes
+
+Specific comments on what is readable and what is not: 
+
+I would say that keys used to represent objects in the level are fairly readable. It is easy to discern what each key stands for,
+be it a block, an enemy, a background object, or an item.
+
+I would say that the most confusing thing in the file is the formatting, more specifically that each row of the file ends at a different spot, 
+however I understand that adding in spaces to format the file may make it more difficult to parse, so it is acceptable but could be improved.

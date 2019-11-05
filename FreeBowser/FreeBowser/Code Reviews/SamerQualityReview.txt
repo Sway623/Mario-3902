@@ -1,0 +1,10 @@
+﻿Author of Code Review: Samer Abusway
+Date of the code review: 2/15/16
+Sprint number: 2 
+Name of the .cs file being reviewed: EnemySpriteFactory.cs
+Author of the .cs file being reviewed: Sophie DeRosa
+Number of minutes taken to complete the review: 15 minutes
+Specific comments on code quality: The quality of this code is good. It is easily maintained because each method
+only has one line. Everything is in separate classes, and this class calls the other classes when they are needed.
+The quality of this code is good also because it is not complex. With each method only doing one thing, it cannot 
+be more simple. 

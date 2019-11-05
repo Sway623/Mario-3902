@@ -1,0 +1,22 @@
+﻿Author of Code Review: Jordan Linville
+Date of the code review: 2/29/16
+Sprint number: 3
+Name of the .cs file being reviewed: CollisionChecker.cs
+Author of the .cs file being reviewed: Krishna Ganesan
+Number of minutes taken to complete the review: 20 minutes
+Specific comments on code quality: 
+
+The code here is medium-high quality.
+
+The code initially follows static-dynamic and dynamic-dynamic collisions.
+The first set of collision checks is iterating through every block and checking for collisions with each koopa and goomba. 
+
+However, further down collisions are checked between mario and blocks, mario and pipes, and mario and items. 
+Then separately, all the players (marios) are iterated through again and compared against enemy types.
+There is no need to iterate through the same group twice. While I understand the logic in separating enemies from objects like items or pipes,
+is is unnecessary. Furthermore, dynamic objects are being tested against static objects, it should be the other way around. 
+
+A hypothetical change to make to the game related to file being reviewed and how the current implementation could or could not easily support that change:
+The collision checker currently does not support enemy-on-enemy collision and projectile collision with anything.
+They both could be easily implemented given the current structure, however collisions might be duplicated by accident because of
+the mix between static vs dynamic, dynamic vs static, and dynamic vs dynamic testing that occurs in this code.  

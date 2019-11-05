@@ -1,0 +1,10 @@
+﻿Author of Code Review: Samer Abusway
+Date of the code review: 2/10/16
+Sprint number: 2 
+Name of the .cs file being reviewed: EnemySpriteFactory.cs
+Author of the .cs file being reviewed: Sophie DeRosa
+Number of minutes taken to complete the review: 15 minutes
+Specific comments on what is readable and what is not: Very readable. I liked the modular
+approach. It was good to have methods that only did one thing, and since each method only has one line,
+of course it only does one thing. It was also good to have the methods take no parameters so client side
+doesn't have to know the arguments to pass. Overall very readable. 

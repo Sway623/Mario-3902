@@ -1,0 +1,12 @@
+﻿Author of the code review: Jordan Linville
+Date of the code review: 3/28/16
+Sprint number: 4
+Name of the .cs file being reviewed: MarioGravityHandler2.cs
+Author of the .cs file being reviewed: Krishna GaNesan
+Number of minutes taken to complete the review: 10 minutes
+MarioGravityHandler2 has stayed nearly the same since the last review. However, creating a new variable called newVelocity
+and doing nothing with it but assigning the currentVelocity to it and using it for comparisons/assignments is unnecessary.
+In addition, the use of the ApplyGravityToMario() method has greatly improved. Earlier, I believe it was used in nearly
+every Mario state class, in addition with various checks in each state like if Mario was grounded or supported.
+This gravity logic has been primarily extracted to the main Mario class. I think the current implementation and use
+of the Mario gravity handler is great. However, it should be noted that there are still a few bugs with gravity.

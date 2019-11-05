@@ -1,0 +1,7 @@
+C:\Users\sophi\Source\Repos\FreeBowser\Sprint0\Sprint0\bin\x86\Debug\Content\mario.xnb
+C:\Users\sophi\Source\Repos\FreeBowser\Sprint0\Sprint0\bin\x86\Debug\Sprint0.exe
+C:\Users\sophi\Source\Repos\FreeBowser\Sprint0\Sprint0\bin\x86\Debug\Sprint0.pdb
+C:\Users\sophi\Source\Repos\FreeBowser\Sprint0\Sprint0\obj\x86\Debug\Sprint2.csprojResolveAssemblyReference.cache
+C:\Users\sophi\Source\Repos\FreeBowser\Sprint0\Sprint0\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\sophi\Source\Repos\FreeBowser\Sprint0\Sprint0\obj\x86\Debug\Sprint0.exe
+C:\Users\sophi\Source\Repos\FreeBowser\Sprint0\Sprint0\obj\x86\Debug\Sprint0.pdb

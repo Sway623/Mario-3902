@@ -1,0 +1,4 @@
+C:\Users\sophi\Source\Repos\FreeBowser\Sprint0\Sprint0Content\obj\x86\Debug\Sprint0Content.contentprojResolveAssemblyReference.cache
+C:\Users\Samer\Source\Repos\FreeBowser\Sprint0\Sprint0Content\obj\x86\Debug\Sprint0Content.contentprojResolveAssemblyReference.cache
+C:\Users\Krishna Ganesan\Source\Repos\FreeBowser\Sprint0\Sprint0Content\obj\x86\Debug\Sprint0Content.contentprojResolveAssemblyReference.cache
+C:\Users\Caorunzhou\Source\Repos\FreeBowser2\Sprint0\Sprint0Content\obj\x86\Debug\Sprint0Content.contentprojResolveAssemblyReference.cache

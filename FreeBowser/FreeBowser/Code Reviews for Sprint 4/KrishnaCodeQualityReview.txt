@@ -1,0 +1,17 @@
+﻿Author of Code Review: Krishna Ganesan
+Date of the code review: 2/15/16
+Sprint number: 4
+Name of the .cs file being reviewed: Fireball.cs
+Author of the .cs file being reviewed: Samer Abusway
+Specific comments on code quality: 
+
+The quality of this code is pretty decent. The variables used throughout are mostly clear and are only defined if they are absolutely necessary to the class.
+The update method is somewhat longer than the others, and so it could potentially be cut down in places to more clearly explain what is happening and to
+increase its overall cohesion. However, the entire class is not very long and all of its content deals with specifically the fireballs.
+
+A hypothetical change to make to the game related to file being reviewed and how the current implementation could or could not easily support that change:
+
+One possible change could be if there were an ammo system, meaning mario could only fire a specific amount of fireballs per life, or some other 
+restriction in that sense, then this file might need some maintenance done to support that change, and it is possible it could be difficult to include.
+
+

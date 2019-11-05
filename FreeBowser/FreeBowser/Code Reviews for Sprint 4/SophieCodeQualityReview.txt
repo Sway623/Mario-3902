@@ -1,0 +1,14 @@
+﻿Author of the code review: Sophie DeRosa
+Date of the code review: 3/28/16
+Sprint number: 4
+Name of the .cs file being reviewed: MarioMovingManager.cs
+Author of the .cs file being reviewed: Runzhou Cao (Joe)
+Number of minutes taken to complete the review: 15 minutes
+Specific comments on code quality: One code smell in this class is that it is fairly long and has a lot of branching
+statements. (This doesn't mean it is low quality). Other than that, the code seems very cohesive.
+The class only does one thing and that is to control mario's velocity when he is moving left and right, which is a 
+good quality to have. 
+A hypothetical change to make to the game related to file being reviewed and how the current implementation 
+could or could not easily support that change: If we wanted to change the numbers of veloocity or acceleration,
+this class makes it very easy to do that. Versus having to dig through many classes, we have all the information about
+mario's velocity in one place.

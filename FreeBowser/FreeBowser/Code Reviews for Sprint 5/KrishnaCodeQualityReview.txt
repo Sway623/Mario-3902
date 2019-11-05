@@ -1,0 +1,21 @@
+﻿Author of Code Review: Krishna Ganesan
+Date of the code review: 4/10/16
+Sprint number: 5 
+Name of the .cs file being reviewed: underground.csv
+Author of the .cs file being reviewed: Samer Abusway
+Specific comments on code quality: 
+
+Though the quality of code for the level 1 file is hard to evaluate, it seems that its quality is overall pretty good. We could use
+the same format to create any variety of levels or to modify the current level. 
+
+
+
+A hypothetical change to make to the game related to file being reviewed and how the current implementation 
+could or could not easily support that change:
+
+A hypothetical change we could make is adding more complex items or enemies, but I still think that this sort of implementation
+could fairly easily support a change as such. For example, adding a red koopa would be as simple as creating a key for it and then
+adding the value of the red koopa to the dictionary of keys.
+
+
+

@@ -1,0 +1,18 @@
+﻿Author of Code Review: Samer Abusway
+Date of the code review: 2/24/16
+
+Sprint number: 3 
+
+Name of the .cs file being reviewed: Goomba.cs
+
+Author of the .cs file being reviewed: Sophie DeRosa
+Number of minutes taken to complete the review: 15 minutes
+
+Specific comments on what is readable and what is not: 
+The update method has logic that is not initially clear to a third party as to what exactly is happening.
+I think overall the method can be pieced together when investigating other methods being called, but initially
+it is not 100% clear. I believe it is a bit difficult to differentiate between what is being done between the 
+the state machine, the sprite, and the state sprite, but upon further investigation it is evident that each class
+does specific things as related to the Goomba enemy. So related to this, in an ideal world, it would be clearer
+what every class was doing a priori, but I think it's fine to just have the methods called as needed. Overall,
+I believe that most of the class is easy to follow and the logic is clear. 

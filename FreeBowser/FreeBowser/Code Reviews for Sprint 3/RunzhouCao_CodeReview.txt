@@ -1,0 +1,19 @@
+﻿Author of Code Review: Runzhou Cao
+
+Date of the code review: 2/24/16
+
+Sprint number: 3 
+
+Name of the .cs file being reviewed CSVParser.cs
+Author of the .cs file being reviewed: Jordan Linville
+Number of minutes taken to complete the review: 15 minutes
+
+Specific comments on what is readable and what is not: 
+
+The naming of variables is pretty good. The naming of positions and sprite parameters is readable.
+Also it is a good practice to keep local variables in the loop where they might be used instead of declare as member variables.
+ 
+Before I review this .cs file, I have no intel about what a CSV parser is. But I can easily figure what does the method function. 
+Even though there are nested loops, the author made it simple and clear to recognize its fuctionality. 
+
+I would say it would be better if the author names the magic number 600.

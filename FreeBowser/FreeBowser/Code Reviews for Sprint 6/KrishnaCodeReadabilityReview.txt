@@ -1,0 +1,20 @@
+﻿Author of Code Review: Krishna Ganesan
+
+Date of the code review: 4/21/16
+
+Sprint number: 6 
+
+Name of the .cs file being reviewed: EnemySpawner.cs
+
+Author of the .cs file being reviewed: Samer Abusway
+
+Number of minutes taken to complete the review: 10 minutes
+
+Specific comments on what is readable and what is not: 
+
+I would say that this file has okay readability. I believe I understand that the objective is to create enemies at random locations over the period of time in the game. 
+However, some of the variable names could benefit from more specific names, and the conditional logic could probably explain why it is needed as well. 
+All in all, this is a very simple file so it has high cohesion and comprehensibility.
+
+
+

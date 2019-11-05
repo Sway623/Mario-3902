@@ -1,0 +1,10 @@
+﻿Author of the code review: Samer Abusway
+Date of the code review: 4/6/16
+Sprint number: 5
+Name of the .cs file being reviewed: BlockGravityHandler.cs
+Author of the .cs file being reviewed: Sophie DeRosa
+Number of minutes taken to complete the review: 15 minutes
+Specific comments on what is readable and what is not: ApplyGravityToBlock() is a readable method. It clearly
+adds to the vertical velocity to have a gravitational effect on the block. It checks to see if it's moving up or 
+down and acts appropriately and then sets the velocity appropriately. It changes the block to be moving down
+once velocity reaches a certain threshold. Very readable. 

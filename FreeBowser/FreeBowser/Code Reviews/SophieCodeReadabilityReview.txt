@@ -1,0 +1,9 @@
+﻿Author of Code Review: Sophie DeRosa
+Date of the code review: 2/10/16
+Sprint number: 2 
+Name of the .cs file being reviewed RightCrouchingFireMarioState.cs
+Author of the .cs file being reviewed: Runzhou (Joe) Cao
+Number of minutes taken to complete the review: 20 minutes
+Specific comments on what is readable and what is not: This code looks good and very readable to me. Each button press is
+associated with a new mario state, and a sprite change. The methods are all broken down into 2 lines which makes reading very
+consistent and easy.

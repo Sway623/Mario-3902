@@ -1,0 +1,9 @@
+﻿Author of the code review: Sophie DeRosa
+Date of the code review: 2/24
+Sprint number: 3
+Name of the .cs file being reviewed: EnemyMarioCollisionHandler.cs
+•Author of the .cs file being reviewed: Joe Cao
+•Number of minutes taken to complete the review: 15 
+•Specific comments on what is readable and what is not: The branching is slightly difficult to read, but the naming conventions
+have helped to make it much more readable. For example it is fairly intuitive that when a collision to the right happens, and the 
+enemy is a goomba, then mario takes the damage.

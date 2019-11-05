@@ -1,0 +1,11 @@
+﻿Author of the code review: Krishna Ganesan
+Date of the code review: 3/21/16
+Sprint number: 4
+Name of the .cs file being reviewed: Fireball.cs
+Author of the .cs file being reviewed: Samer Abusway
+Number of minutes taken to complete the review: 15 minutes
+
+Specific comments on what is readable and what is not: 
+The fields naming and types are very clear and explanatory. The methods are all quite simple and spread out based on their function. This 
+makes the class cohesive and maintainable.
+However there do appear to be some magic numbers that could have been defined either inside the methods or at the top of the class.

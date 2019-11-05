@@ -1,0 +1,9 @@
+﻿Author of te code review: Sophie DeRosa
+Date of the code review: 2/24/16
+Sprint number: 3
+Name of the .cs file being reviewed: EnemyMarioCollisionHandler.cs
+Author of the .cs file being reviewed: Runzhou Cao (Joe)
+Number of minutes taken to complete the review: 15 minutes
+Specific comments on what is readable and what is not: There is quite a bit of branching in this handler, which does make it a bit
+difficult to read through. For the most part it is intuitive. It is easy to read through which cases give which results. For example
+it is easy to read that for a top collision, a goomba and mario collision will yield in mario damage.

@@ -1,0 +1,17 @@
+﻿Author of te code review: Sophie DeRosa
+Date of the code review: 2/29/16
+Sprint number: 3
+Name of the .cs file being reviewed: EnemyMarioCollisionHandler.cs
+Author of the .cs file being reviewed: Runzhou Cao (Joe)
+Number of minutes taken to complete the review: 15 minutes
+Specific comments on code quality: I think that this code is high quality. The Handler only covers one 
+total situation - when an enemy and a mario collide. Since it only does one thing I think the code is
+modular which we consider to be high quality. I think the handler has high cohesion because every 
+element in the handler (meaning each if statement) contributes to the same thing - i.e. handling 
+an enemy and mario collision.
+A hypothetical change to make to the game related to file being reviewed and how the current 
+implementation could or could not easily support that change: The only thing that does not immediately
+seem intuitive is that the handler checks the health of koopa before taking action but does not check
+the health of goomba. Joe and I discussed this and I think our current implementation is supposed to
+be set up this way, but I think that the code would be more robust to make some changes in the way
+that we check Goomba health. The current implementation could easily change this.

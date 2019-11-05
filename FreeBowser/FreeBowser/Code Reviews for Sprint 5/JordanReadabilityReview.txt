@@ -1,0 +1,13 @@
+﻿Author of the code review: Jordan Linville
+Date of the code review: 4/6/16
+Sprint number: 5
+Name of the .cs file being reviewed: FireballCollisionChecker.cs
+Author of the .cs file being reviewed: Krishna GaNesan
+Number of minutes taken to complete the review: 10 minutes
+Specific comments on what is readable and what is not: The function of this file is very clear.
+This file and its functionality has obviously been refactored several times. 
+The only function in this file is CheckFireballCollisions, each fireball that currently exists is checked for
+collisions against blocks, koopas, goombas, pipes, and pipes. In each loop, a fireball and the object to be checked against
+is passed to the general collision detector. The general collision detector in each case returns the direction of the collision.
+The direction of the collision is then passed to the appropriate handler, there is a separate handler for each type of collision.
+Krishna did a great job with the readability of this file. 

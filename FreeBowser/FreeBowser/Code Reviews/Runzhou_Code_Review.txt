@@ -1,0 +1,9 @@
+Author of Code Review: Runzhou Cao
+Date of the code review: 2/10/16
+Sprint number: 2 
+Name of the .cs file being reviewed FireFlower.cs
+Author of the .cs file being reviewed: Jordan Linville
+Number of minutes taken to complete the review: 15 minutes
+Specific comments on what is readable and what is not: 
+
+The naming of variables and functions is clear. And the logic of Update() and Draw() methods is good too. It would be better if variable such as spriteWidth and magical number 3 are declared as constants.

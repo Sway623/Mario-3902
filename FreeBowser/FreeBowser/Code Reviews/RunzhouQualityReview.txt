@@ -1,0 +1,9 @@
+﻿Author of Code Review: Runzhou cao
+Date of the code review: 2/15/16
+Sprint number: 2 
+Name of the .cs file being reviewed: FireFlower.cs
+Author of the .cs file being reviewed: Jordan Linville
+Number of minutes taken to complete the review: 12 minutes
+Specific comments on code quality: Generally speaking, the code quality of the fireflower class is good. 
+It is easily maintained because of the loose coupling characteristic. Other class only call this class when it is necessary and vice versa.
+The quality of this code is good because inner the class, all methods are of high cohesion. Every mehtods perform their own task.

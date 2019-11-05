@@ -1,0 +1,5 @@
+C:\Users\Samer\Source\Repos\FreeBowser\FreeBowser\FreeBowserContent\obj\x86\Debug\FreeBowserContent.contentprojResolveAssemblyReference.cache
+C:\Users\Samer\FreeBowser\FreeBowser\FreeBowserContent\obj\x86\Debug\FreeBowserContent.contentprojResolveAssemblyReference.cache
+C:\Users\Caorunzhou\Source\Repos\FreeBowser\FreeBowser\FreeBowserContent\obj\x86\Debug\FreeBowserContent.contentprojResolveAssemblyReference.cache
+C:\Users\sophi\Source\Repos\FreeBowser\FreeBowser\FreeBowserContent\obj\x86\Debug\FreeBowserContent.contentprojResolveAssemblyReference.cache
+C:\Users\Jordan\Desktop\FreeBowser\FreeBowser\FreeBowserContent\obj\x86\Debug\FreeBowserContent.contentprojResolveAssemblyReference.cache

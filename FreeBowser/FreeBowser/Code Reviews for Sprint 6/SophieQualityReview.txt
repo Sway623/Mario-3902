@@ -1,0 +1,15 @@
+﻿Author of the code review: Sophie DeRosa
+Date of the code review: 4/22/16
+Sprint number: 6
+Name of the .cs file being reviewed: GameReplayer.cs
+Author of the .cs file being reviewed: Runzhou Cao (Joe)
+Number of minutes taken to complete the review: 15 minutes
+
+Specific comments on code quality: I think this is a high quality file. The Update() method only updates the key
+mappings (which commands have been pressed and which haven't) so it is a cohesive method. The methods in the class
+all seem to go together which means overall there is high cohesion, which is good.
+
+A hypothetical change to make to the game related to file being reviewed and how the current implementation 
+could or could not easily support that change: If we were to add more commands to the game, there would need to be
+some changes made to the hardcoded commands in the LogCommandsMappings. That would not be difficult at all to implement 
+based on the way that the class is set up.

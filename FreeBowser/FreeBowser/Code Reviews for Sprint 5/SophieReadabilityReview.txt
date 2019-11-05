@@ -1,0 +1,10 @@
+﻿Author of the code review: Sophie DeRosa
+Date of the code review: 4/6/16
+Sprint number: 5
+Name of the .cs file being reviewed: SoundManager.cs
+Author of the .cs file being reviewed: Runzhou Cao (Joe)
+Number of minutes taken to complete the review: 15 minutes
+Specific comments on what is readable and what is not: This file is super readable. There is a loading method in
+which all the specific sound files are loaded. Then there are methods to play a certain sound and another method which
+I am actually not really sure what it does. That method may need some better documentation or explanation of why it 
+is different than the first method. Otherwise it looks good and I can read through it very easily.

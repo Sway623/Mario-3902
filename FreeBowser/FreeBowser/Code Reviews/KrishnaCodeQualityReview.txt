@@ -1,0 +1,15 @@
+﻿Author of Code Review: Krishna Ganesan
+Date of the code review: 2/15/16
+Sprint number: 2 
+Name of the .cs file being reviewed: Flag.cs
+Author of the .cs file being reviewed: Samer Abusway
+Specific comments on code quality: 
+The quality of this code is good. The variables to be used later in the class are clearly defined at the top of the file. The Update method is very simple and 
+the draw method is as basic as it needs to be. The cohesion of this class is also very good, it is clear and focused what is being done in this 
+file (drawing and updating the flag along the flagpole).
+
+
+A hypothetical change to make to the game related to file being reviewed and how the current implementation could or could not easily support that change:
+The only issue is that if we were to change the position of the flagpole, all of the current values in the file are hard coded. Also if we wanted the flag to move in any different
+sort of pattern, such as continuing to go up and forth, we would have to revisit and add more code to the Update() method.
+

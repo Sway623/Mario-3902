@@ -1,0 +1,19 @@
+﻿Author of te code review: Runzhou Cao
+
+Date of the code review: 4/22/16
+
+Sprint number: 6
+
+Name of the .cs file being reviewed: EditLevelDisplay.cs
+
+Author of the .cs file being reviewed: Jordan Linville
+
+Number of minutes taken to complete the review: 15 minutes
+
+Specific comments on code quality: I think Jordan's code is of high quality. 
+
+Although there are many methods, they are all related to Edit Level's fuctionality. So I would say this is unavoidable and it still can be viewed as high cohesion.
+It's reasonable to have that many methods.
+
+But the coupling is tight. The class has many static fields, which means many other classes will depend on this class. Again, I would say this is unavoidable
+because of its functionality.

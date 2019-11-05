@@ -1,0 +1,9 @@
+﻿This burn down chart was a little different than in previous sprints. The burndown chart of this sprint 6 had an 
+interesting spike about less than halfway through the sprint, which is probably because we set a goal to have all of our
+bugs worked out from the last sprint by halfway through this sprint. We did actually learn something from our work
+in the last sprint, and we acted upon it which I think was a great thing for our team.
+
+In addition, we did have a lot of work getting done at the last minute like we usually did. There was a lot of code
+getting pushed on Friday, and our team worked extremely hard to get this sprint done and make our new features really 
+cool. We did not set forth any unrealistic expectations for ourselves and thus this may have been one of our 
+best sprints yet.

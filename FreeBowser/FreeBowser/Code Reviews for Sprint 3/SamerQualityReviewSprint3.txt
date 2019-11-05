@@ -1,0 +1,24 @@
+﻿Author of te code review: Samer Abusway
+
+Date of the code review: 2/29/16
+
+Sprint number: 3
+
+Name of the .cs file being reviewed: Goomba.cs
+
+Author of the .cs file being reviewed: Sophie DeRosa
+
+Number of minutes taken to complete the review: 15 minutes
+
+Specific comments on code quality: I believe this code is of high quality. The code relies on other classes
+to handle most of the methods - i.e. goombaState and goombaSprite. It makes the client side Goomba code very
+easily managed, with a modular implementation on the back end. This class is cohesive, only making changes
+to one element of the game - the goomba enemy. Initially, this implementation did not use a state pattern,
+but now using the state pattern makes the code much more maintainable. 
+
+A hypothetical change to make to the game related to file being reviewed and how the current 
+implementation could or could not easily support that change: A hypothetical change to the file would be to
+use a state machine as previously used for this code. We had it working with a state machine, but the code
+is less maintainable and readable with a state machine for this particular element of the game. The current 
+implementation could easily support the change, I believe it's a matter of choice. But this option of state
+pattern is easier to maintain. 

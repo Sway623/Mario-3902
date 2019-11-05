@@ -1,0 +1,14 @@
+﻿Author of Code Review: Sophie DeRosa
+Date of the code review: 2/15/16
+Sprint number: 2 
+Name of the .cs file being reviewed RightCrouchingFireMarioState.cs
+Author of the .cs file being reviewed: Runzhou (Joe) Cao
+Number of minutes taken to complete the review: 20 minutes
+Specific comments on code quality: I think this code is very high quality. The class does only one thing which is very modular
+and good. Its very readable and maintainable because it implements an interface IMarioState that would allow us to 
+implement more functionality very easily.
+A hypothetical change to make to the game related to file being reviewed and how the current implementation could 
+or could not easily support that change: It is really difficult to find something I would change about this code because
+I think it's very simple and probably could not be improved by much. One hypothetical change we could make is to make the
+field "marioSprite" just "sprite" because the field "state" is just that and not "marioState".
+

@@ -1,0 +1,12 @@
+﻿Author of the code review: Jordan Linville
+Date of the code review: 3/21/16
+Sprint number: 4
+Name of the .cs file being reviewed: MarioGravityHandler2.cs
+Author of the .cs file being reviewed: Krishna GaNesan
+Number of minutes taken to complete the review: 10 minutes
+Specific comments on what is readable and what is not: The function of this file is very clear.
+There is a constructor to create the handler and a method ApplyGravityToMario() that gets the current velocity of Mario
+and checks if his current velocity is less than or equal to 3. If it is, then the velocity of Mario is incremented by 0.5.
+The only issue I see with this file is the empty else statement following the if-statement within ApplyGravityToMario().
+Additionally, it seems like a vast amount of the actual handling of gravity is within CollisionChecker.
+This might impact the readability of the CollisionChecker class, and should be looked into before the end of Sprint 4.

@@ -1,0 +1,21 @@
+﻿Author of Code Review: Krishna Ganesan
+Date of the code review: 4/21/16
+Sprint number: 6 
+Name of the .cs file being reviewed: EnemySpawner.cs
+Author of the .cs file being reviewed: Samer Abusway
+Specific comments on code quality: 
+
+I would say that the code quality for this file is pretty good. First of all, it is very short and has only the methods that it needs. 
+Also all of the logic inside update is very cohesive as it does deal with the sole function of updating the world's enemies. 
+ 
+
+
+A hypothetical change to make to the game related to file being reviewed and how the current implementation 
+could or could not easily support that change:
+
+Currently, the way this class is structured it does not generate enemies randomly, but rather conditionally. If it was desired to have a random number of goombas produced
+at various times (instead of fixed times), it would require some maintenance.
+
+
+
+

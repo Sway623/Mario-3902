@@ -1,0 +1,22 @@
+﻿Author of Code Review: Samer Abusway
+Date of the code review: 4/11/16
+Sprint number: 5
+Name of the .cs file being reviewed: BlockGravityHandler.cs
+Author of the .cs file being reviewed: Sophie DeRosa
+Specific comments on code quality: 
+
+This code has both high cohesion and loose coupling. This class only knows of the block class on which
+it must operate (gravity). Instead of modifying concrete fields, this class uses methods within the block
+class to set velocities and determine whether the block is moving up. This class deals only with the block
+gravity and knows onlhy of that class. 
+
+
+
+A hypothetical change to make to the game related to file being reviewed and how the current implementation 
+could or could not easily support that change:
+
+A hypothetical change would be to make the block move up a little bit more before it falls. This would serve
+no real purpose besides a change in anaimation but the current implementation would be capable of adopting this 
+change rather easily because it handles the up and down movement of the block already. 
+
+

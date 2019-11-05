@@ -1,0 +1,18 @@
+﻿Author of te code review: Runzhou Cao
+
+Date of the code review: 4/11/16
+
+Sprint number: 5
+
+Name of the .cs file being reviewed: Gameover.cs
+
+Author of the .cs file being reviewed: Jordan Linville
+
+Number of minutes taken to complete the review: 10 minutes
+
+Specific comments on code quality: I think Jordan's code is of high quality. 
+
+The only place that this class has been used is when mario has no lifes . Its unique functionality that ends game makes it loose coupling when comparing with other classes.
+Also within the classes. Though there are many methods, regarding their functionality, I would say it's reasonable to have that many methods
+and they are all related to the functionality of game over. So this class still has considerablely high cohesion.
+Combined with factors that this class is of high cohesion and loose coupling, thus I would say the code quality is good.

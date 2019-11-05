@@ -1,0 +1,16 @@
+﻿Author of Code Review: Jordan Linville
+Date of the code review: 2/15/16
+Sprint number: 2 
+Name of the .cs file being reviewed QuestionBlock.cs
+Author of the .cs file being reviewed: Krishna Ganesan
+Number of minutes taken to complete the review: 15 minutes
+Specific comments on what is readable and what is not: 
+
+A concern I have with this class and the other block classes is their creation.
+Currently, the creation of blocks is manageable within Game1.cs because only 5 blocks exist. 
+However, with the current implementation, when levels are created we would have to declare possibly 100s of block variables. 
+I think some encapsulation between Game1.cs and the block classes would be useful. 
+
+Another potential improvement is adding states to blocks to separate later logic from animation. 
+This will help reduce / prevent reassigning blocks like QuestionBlock to Used block.
+I think it would be very useful if there was a function for a power block to take on other appearances so they can be hidden / invisible.

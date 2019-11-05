@@ -1,0 +1,7 @@
+﻿Author of the code review: Runzhou Cao
+Date of the code review: 3/21/16
+Sprint number: 4
+Name of the .cs file being reviewed: CameraController.cs
+Author of the .cs file being reviewed: Jordan Linville
+Number of minutes taken to complete the review: 15 minutes
+Specific comments on what is readable and what is not: The naming of methods is clear, which makes the class readable. I can easily tell what method does what job. The naming of variables is clear as well. The author differentiate variables by add initials such as initPosition. This is a good practice. Overall, the readability of this class is pretty good.

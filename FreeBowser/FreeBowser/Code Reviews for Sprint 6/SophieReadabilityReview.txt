@@ -1,0 +1,10 @@
+﻿Author of the code review: Sophie DeRosa
+Date of the code review: 4/22/16
+Sprint number: 6
+Name of the .cs file being reviewed: GameReplayer.cs
+Author of the .cs file being reviewed: Runzhou Cao (Joe)
+Number of minutes taken to complete the review: 15 minutes
+Specific comments on what is readable and what is not: This file has a lot of fields at the top which is slightly
+hard to read. The constructor is easy to read and understand and everything has been named appropriately. The other 
+methods are also fairly readable. There also is some commented out code at the bottom which I would consider 
+hard to read.

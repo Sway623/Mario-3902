@@ -1,0 +1,22 @@
+﻿Author of Code Review: Jordan Linville
+Date of the code review: 4/21/16
+Sprint number: 6 
+Name of the .cs file being reviewed: MarioTakingDamageAnimationManager.cs
+Author of the .cs file being reviewed: Krishna Ganesan
+Specific comments on code quality: 
+
+The code quality of this file is high, but it is also a very short file. The only function in the manager has a very specific functionality.
+However, the layout of variables used seems a bit odd. Everytime the method is called, it will declare variables that may be frequently used.
+It might be a better choice to move those variables, but it could also be argued that since they are centric to the animation,
+they belong there.
+
+
+A hypothetical change to make to the game related to file being reviewed and how the current implementation 
+could or could not easily support that change:
+
+If we implemented a method to change mario's state, sprite, etc. (without sound) I think the current implementation would support that change
+and benefit from it. Krishna has done a good job with separating this logic from the already very large mario class.
+
+
+
+

@@ -1,0 +1,16 @@
+﻿For sprint 3, our burndown chart did not exactly fit the ideal trend shown on VS online. There was some stagnation on our work
+at the beginning of the sprint, which we could fix for the next sprint by starting our work earlier (or, rather, finishing
+our work earlier). We did begin implementation of many of the tasks right when the sprint started, but I think that the issue was
+that we didn't feel finished with many of the tasks until closer to the time that the sprint ended.
+
+There is also a notably steep slope of our chart around the time that the initial implementation is due, which is because we saved
+the finishing touches on many tasks until the last minute. For example, we didn't drag an item to done until we had implemented it
+and also manually tested it, so these tasks didn't get closed until the last minute when we were doing last minute manual testing.
+
+We didn't save very many tasks for our refactoring period. I think this is definitely an area we can improve upon. The problem 
+we faced during this sprint was that we weren't sure going into our planning session at the beginning
+of the sprint what we would need to refactor. As we used different pieces of the code, we realized that some things were not good
+and needed to be changed, for example the state machine used in enemy classes. I didn't realize how difficult to understand this
+was until having to spend a ton of time debugging the enemy collision handling. Then, we didn't have a task for refactoring this
+so I just did it but didn't add it to the burn down chart. This is definitely something we can improve on by just adding 3-5 hours
+of refactoring in the initial implementation.

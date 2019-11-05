@@ -1,0 +1,17 @@
+﻿Author of the code review: Jordan Linville
+Date of the code review: 4/11/16
+Sprint number: 5
+Name of the .cs file being reviewed: MarioSmallToBigManager.cs
+Author of the .cs file being reviewed: Krishna GaNesan
+Number of minutes taken to complete the review: 10 minutes
+
+Specific comments on code quality: I think that this class is medium quality. While there is only one method and the
+functionality can be guessed from a glance, reading the code is a bit more difficult because of the very similar
+if-statements and magic numbers used. The frametimer being checked at a certain ratios of the total frame is not clear
+and there are if-statements 3 levels deep. In addition, there are unused variables.
+
+A hypothetical change to make to the game related to file being reviewed and how the current implementation 
+could or could not easily support that change: One thing that we could change is having different sprites for multiplayer.
+I think the current implementation of this file would not easily support this change, as it would require adding more
+variables to a utility class and result in a longer list of if-statements. We could refactor this by calculating the dimensions
+a sprite needs to be for a mid-sized morph and then extract that functionality to another method.

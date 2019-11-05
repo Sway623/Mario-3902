@@ -1,0 +1,10 @@
+﻿Author of the code review: Sophie DeRosa
+Date of the code review: 3/21/16
+Sprint number: 3
+Name of the .cs file being reviewed: MarioMovingManager.cs
+Author of the .cs file being reviewed: Runzhou Cao (Joe)
+Number of minutes taken to complete the review: 15 minutes
+Specific comments on what is readable and what is not: This file is fairly readable. It is a little lengthy which makes it
+slightly difficult to follow, and the large branching statements are a bit confusing to read through. For example it is slightly difficult
+to read through an if-else if-else if-else especially when the conditions are with comparison operators. Overall, I think this
+file is pretty easy to read.

@@ -1,0 +1,47 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Sprint0/Sprint0/bin/x86/Debug/Content/misc-3.xnb
+/Sprint3Tests/obj/Debug/build.force
+/FreeBowser/FreeBowserContent/obj/x86/Debug/FreeBowserContent.contentprojResolveAssemblyReference.cache
+/FreeBowser/FreeBowser/obj/x86/Debug/Microsoft.Xna.Framework.RuntimeProfile.txt
+/FreeBowser/FreeBowser/obj/x86/Debug/FreeBowser.csprojResolveAssemblyReference.cache
+/FreeBowser/FreeBowser/obj/x86/Debug/cachefile-{E0A69811-8E2C-4A34-8CD3-36DA1C3C87CA}-targetpath.txt
+/FreeBowser/FreeBowser/bin/x86/Debug/Utility/Sprint 3 Test.csv
+/FreeBowser/FreeBowser/bin/x86/Debug/Microsoft.Xna.Framework.xml
+/FreeBowser/FreeBowser/bin/x86/Debug/Microsoft.Xna.Framework.Input.Touch.xml
+/FreeBowser/FreeBowser/bin/x86/Debug/Microsoft.Xna.Framework.Input.Touch.dll
+/FreeBowser/FreeBowser/bin/x86/Debug/Microsoft.Xna.Framework.Graphics.xml
+/FreeBowser/FreeBowser/bin/x86/Debug/Microsoft.Xna.Framework.Graphics.dll
+/FreeBowser/FreeBowser/bin/x86/Debug/Microsoft.Xna.Framework.GamerServices.xml
+/FreeBowser/FreeBowser/bin/x86/Debug/Microsoft.Xna.Framework.GamerServices.dll
+/FreeBowser/FreeBowser/bin/x86/Debug/Microsoft.Xna.Framework.Game.xml
+/FreeBowser/FreeBowser/bin/x86/Debug/Microsoft.Xna.Framework.Game.dll
+/FreeBowser/FreeBowser/bin/x86/Debug/Microsoft.Xna.Framework.dll
+/FreeBowser/FreeBowser/bin/x86/Debug/Content/tiles-2.xnb
+/FreeBowser/FreeBowser/bin/x86/Debug/Content/smb_enemies_sheet.xnb
+/FreeBowser/FreeBowser/bin/x86/Debug/Content/misc-6.xnb
+/FreeBowser/FreeBowser/bin/x86/Debug/Content/misc-3.xnb
+/FreeBowser/FreeBowser/bin/x86/Debug/Content/misc-2.xnb
+/FreeBowser/FreeBowser/bin/x86/Debug/Content/mario.xnb
+/FreeBowser/FreeBowser/obj/x86/Debug/FreeBowser.pdb
+/FreeBowser/FreeBowser/obj/x86/Debug/FreeBowser.exe
+/FreeBowser/FreeBowser/obj/x86/Debug/ContentPipeline-{E0A69811-8E2C-4A34-8CD3-36DA1C3C87CA}.xml
+/FreeBowser/FreeBowser/bin/x86/Debug/Mario Level 1-1.csv
+/FreeBowser/FreeBowser/bin/x86/Debug/FreeBowser.pdb
+/FreeBowser/FreeBowser/bin/x86/Debug/FreeBowser.exe
+/FreeBowser/FreeBowser/bin/x86/Debug/Underground.csv
+/FreeBowser/FreeBowser/bin/x86/Debug/Content/pressstart.xnb
+/FreeBowser/FreeBowser/bin/x86/Debug/Content/smb_stomp.xnb
+/FreeBowser/FreeBowser/bin/x86/Debug/Content/smb_powerup.xnb
+/FreeBowser/FreeBowser/bin/x86/Debug/Content/smb_mariodie.xnb
+/FreeBowser/FreeBowser/bin/x86/Debug/Content/smb_jumpsmall.xnb
+/FreeBowser/FreeBowser/bin/x86/Debug/Content/smb_jump-super.xnb
+/FreeBowser/FreeBowser/bin/x86/Debug/Content/smb_coin.xnb
+/FreeBowser/FreeBowser/bin/x86/Debug/Content/smb_bump.xnb
+/FreeBowser/FreeBowser/bin/x86/Debug/Content/smb_breakblock.xnb
+/FreeBowser/FreeBowser/bin/x86/Debug/Content/pressstartsmall.xnb
+/FreeBowser/FreeBowser/bin/x86/Debug/Content/mario-luigi.xnb
+/FreeBowser/FreeBowser/bin/x86/Debug/Content/01-main-theme-overworld.xnb
+/.vs/config/applicationhost.config

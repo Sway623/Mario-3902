@@ -1,0 +1,14 @@
+﻿Author of Code Review: Jordan Linville
+Date of the code review: 2/24/16
+Sprint number: 3
+Name of the .cs file being reviewed: CollisionChecker.cs
+Author of the .cs file being reviewed: Krishna Ganesan
+Number of minutes taken to complete the review: 15 minutes
+Specific comments on what is readable and what is not: 
+The functionality of collision checker is clear. 
+Every block (static object) is rectangle is checked against against every enemy's rectangle (Koopas and Goombas). 
+Then every player (mario) object is compared every kind of block, pipe, and item for collisions.
+Then every player (mario) object is also compared against every koopa and goomba for collisions.
+While it is clear what is being checked for collisions, the order why is not clear.
+I suggest comparing every static object against every dynamic object and every
+dynamic object against every dynamic object. Currently it has a "mix and match" format.

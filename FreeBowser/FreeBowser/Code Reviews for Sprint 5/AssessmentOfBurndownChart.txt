@@ -1,0 +1,10 @@
+﻿We as a team do not think that our burndown chart progress was the worst compared to all the other sprints. However,
+the first half of our burndown chart is almost completely linear. However, team members kept finding additional features that needed to be added or 
+fixed throughout the second half of the project. The team felt that adding additional tasks to the backlog was more important than
+trying to maintain a linear burndown chart. Additionally, the work done during this project was fairly consistent, however the addition of tasks several times
+counteracted any work done a given day.
+
+A large factor in the poor appearance of the second half of our burndown chart is trying to complete tasks that should have been finished the sprint before.
+Rather than perfecting certain functionalities when they were first assigned, much debugging happened during Sprint 5 and took away time from
+the initially planned features of Sprint 5. The sprint burndown chart for Sprint 6 will be interesting, 
+given that everyone will be independently working on their own additions.

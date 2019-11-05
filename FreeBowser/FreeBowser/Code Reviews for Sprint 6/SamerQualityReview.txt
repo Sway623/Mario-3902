@@ -1,0 +1,19 @@
+﻿Author of the code review: Samer Abusway
+Date of the code review: 4/22/16
+Sprint number: 6
+Name of the .cs file being reviewed: Goomba.cs
+Author of the .cs file being reviewed: Sophie DeRosa
+Number of minutes taken to complete the review: 15 minutes
+
+Specific comments on code quality: The class is very long yet still cohesive because it is all related to 
+the goomba class. Coupling isn't too terribly high. This class knows about both the sprite and the state, but 
+this is because these two things are what encompass a goomba object. This class takes care of calling the
+appropriate methods in the appropriate classes to do what is necessary, while keeping things simple on the client 
+side.
+
+A hypothetical change to make to the game related to file being reviewed and how the current implementation 
+could or could not easily support that change: One could argue that the nightmare logic should be separated into
+a different class. One could check in the update method if nightmare mode is activated and then defer to another 
+class, and this would shorten the length of the class and increase cohesion, and the current implementation would
+easily support this change, however it is a bit unnecessary because the nightmare logic does not take up
+a lot of space in the class.

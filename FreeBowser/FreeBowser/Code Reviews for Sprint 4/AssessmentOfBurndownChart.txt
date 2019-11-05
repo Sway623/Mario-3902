@@ -1,0 +1,9 @@
+﻿
+We as a team do not think that our burn down chart progress improved from last sprint, and may have even worsened. However,
+due to the fact that spring break was right in the middle of this sprint, we can't say that our jagged graph with a 
+large stagnation in the middle is a surprise. Some of us were out of town, and others just needed a break.
+
+I think that had spring break not been in the middle of the sprint, our progress would have looked much better on 
+a graph. We worked very hard as a team and didn't wait til the last minute to do any of the refactoring. We started
+working on refactoring actually right after turning in the initial implementation. I think that was the best thing 
+that we did over this sprint. Hopefully we will be able to improve next sprint since there won't be a break in the middle.

@@ -1,0 +1,15 @@
+﻿Author of the code review: Sophie DeRosa
+Date of the code review: 4/11/16
+Sprint number: 5
+Name of the .cs file being reviewed: SoundManager.cs
+Author of the .cs file being reviewed: Runzhou Cao (Joe)
+Number of minutes taken to complete the review: 15 minutes
+
+Specific comments on code quality: I think that this class is very quality. Each method is very modular and only attempts
+to do one thing, such as LoadSoundContent which does only that thing which the method header describes.
+
+A hypothetical change to make to the game related to file being reviewed and how the current implementation 
+could or could not easily support that change: One thing that we could change (and this relates to how we are 
+supposed to be building a game engine vs. a game) is to change the actual music files, where we might be changing
+the entire theme of the game and would need new music. This would be very easy to do as all we would need is to
+load the new files and appropriately change when they are played (or, we might not even need to change that).

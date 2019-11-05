@@ -1,0 +1,16 @@
+﻿Author of the code review: Samer Abusway
+
+Date of the code review: 3/38/16
+
+Sprint number: 4
+
+Name of the .cs file being reviewed: WorldManager.cs
+
+Author of the .cs file being reviewed: Sophie DeRosa
+
+Number of minutes taken to complete the review: 15 minutes
+
+Specific comments on code quality: This code is of high quality; although a priori one may be able to say it has too tight of coupling, this class needs to know about other class in order to simply call the update methods and draw methods of each object. The class is highly cohesive because it only does one thing - loads the world and calls the Update and draw methods for each objects. It handles every object. 
+
+A hypothetical change to make to the game related to file being reviewed and how the current 
+implementation could or could not easily support that change: The only thing I could imagine would be separating the parsing of the CSV and the generation of the sprites and then the update and draw methods into separate classes. This current implementation could easily support that change, but it would only be to make the class shorter and cohesiveness would ever so slightly increase. 
